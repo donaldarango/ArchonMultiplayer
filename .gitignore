@@ -1,0 +1,73 @@
+# ==========================================
+# Visual Studio / MSVC Specific Files
+# ==========================================
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+# ==========================================
+# CMake Build Outputs & Artifacts
+# ==========================================
+# Visual Studio's default CMake output directory
+out/
+
+# Standard standalone CMake directories & cache
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CMakeLists.txt.user
+CMakeUserPresets.json
+_deps/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Alternative generic build folders
+build/
+build*/
+
+# ==========================================
+# C++ Compiled Files & Binaries
+# ==========================================
+# Compiled Object files
+*.obj
+*.o
+*.gch
+*.pch
+
+# Libraries and Executables
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+
+# Linker and Debugger files
+*.ilk
+*.pdb
+*.exp
+*.dwo
+
+# ==========================================
+# Operating System & Temporary Files
+# ==========================================
+*.tmp
+*.log
+*.bak
+.DS_Store
+Thumbs.db
